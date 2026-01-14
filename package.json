@@ -1,0 +1,22 @@
+{
+  "name": "vortix",
+  "version": "0.7.5",
+  "private": true,
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "inspect": "node app/Vortix.mjs"
+  },
+  "dependencies": {
+    "@coinbase/wallet-sdk": "latest",
+    "@coinbase/onchainkit": "latest",
+    "@coinbase/cdp-sdk": "latest",
+    "@coinbase/agentkit": "latest",
+    "@base-org/account-sdk": "latest",
+    "@base-org/node": "latest",
+    "viem": "^2.21.0",
+    "ethers": "^6.13.4",
+    "web3": "^4.12.1",
+    "axios": "^1.7.9"
+  }
+}
